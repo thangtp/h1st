@@ -113,7 +113,6 @@ def new_project(project_name, base_path):
 
         # create all empty files
         (tmppath / '__init__.py').touch()
-        (tmppath / 'schema.py').touch()
         (tmppath / 'config.py').touch()
         (model_folder / '__init__.py').touch()
         (test_folder / '__init__.py').touch()
